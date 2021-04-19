@@ -163,6 +163,7 @@ subplot(1,2,2)
     legend('Fingerprint','1000-10000 cm^2','100-1000 cm^2','0-100 cm^2')
     pbaspect([1 1 1])
     xlabel('Phi')
+    ylabel('P(Phi)')
     
 % computing f_phi pertaining to the fingerprint
     for i=1:numel(bin_values(:,1))
